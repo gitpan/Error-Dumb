@@ -39,9 +39,7 @@ Accessor for private scalar ERROR.
 
 =cut
 
-use vars qw($VERSION @ISA);
-
-@ISA = qw(Exporter AutoLoader);
+use vars qw($VERSION);
 
 $VERSION = do { my @r=(q$Revision: 1.2 $=~/\d+/g); sprintf "%d."."%02d"x$#r,@r };
 
@@ -88,8 +86,6 @@ Ilia Lobsanov <ilia@lobsanov.com>
 =head1 COPYRIGHT
 
   Copyright (c) 2001 Ilia Lobsanov, Nurey Networks Inc.
-  Written under contract with GlobalNetwork Technology Services 
-  for Rogers Communications Inc.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.  
 
